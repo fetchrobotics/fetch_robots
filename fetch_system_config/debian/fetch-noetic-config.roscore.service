@@ -1,6 +1,8 @@
 [Unit]
 Description=Job that launches roscore once the system has started
 After=multi-user.target
+After=time-sync.target
+Wants=time-sync.target
 
 [Install]
 WantedBy=multi-user.target
