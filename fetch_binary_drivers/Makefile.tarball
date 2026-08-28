@@ -3,7 +3,7 @@ all: binary_driver
 # TODO: There are some more things to automate.
 DRIVER_VERSION = 0.8.9
 TARBALL = build/fetch-drivers-2018-8.tar.gz
-TARBALL_URL = http://packages.fetchrobotics.com/binaries/fetch-drivers-2018-8.tar.gz
+TARBALL_URL = https://packages.fetchrobotics.com/binaries/fetch-drivers-2018-8.tar.gz
 SOURCE_DIR = build/output
 MD5SUM_FILE = fetch-drivers-2018-8.tar.gz.md5sum
 UNPACK_CMD = tar zxvf
